@@ -1,6 +1,6 @@
 {
   "name": "sample-library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Testing- how to import library",
   "scripts": {
     "rollup": "rollup -c"
@@ -16,6 +16,7 @@
     "rollup": "^2.75.3",
     "rollup-plugin-dts": "^4.2.2",
     "rollup-plugin-node-externals": "^4.0.0",
+    "rollup-plugin-postcss": "^4.0.2",
     "typescript": "^4.7.2"
   },
   "main": "dist/cjs/index.js",
@@ -23,8 +24,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "dependencies": {
-    "rollup-plugin-postcss": "^4.0.2"
-  }
+  "types": "dist/index.d.ts"
 }
